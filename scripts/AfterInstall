@@ -1,7 +1,7 @@
 #!/bin/bash
 myip=`curl http://169.254.169.254/latest/meta-data/local-ipv4`
-Owner = "Snyatkov_V"
-Project = "Demo"
+Owner="Snyatkov_V"
+Project="Demo"
 
 cat <<EOF > /var/www/html/index.html
 <html>
