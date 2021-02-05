@@ -1,2 +1,2 @@
 #!/bin/bash
-rm /var/www/html/*
+rm -f -R /var/www/html/*
